@@ -68,7 +68,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/jdphil99/edie-homepage-master
+$ git clone https://github.com/jdphil99/edie-homepage
 
 # Install dependencies
 $ npm install
