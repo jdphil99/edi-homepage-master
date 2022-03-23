@@ -30,17 +30,21 @@ body {
   font-size: 1.5rem;
 }
 
-.hero,
 .container {
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  width: 350px;
+  height: 100%;
 }
 
-.question,
-h2,
-p {
-  margin-left: 40px;
+.container h2 {
+  width: 73%;
+}
+
+.hero {
+  height: 50%;
+  width: auto;
 }
 
 .question,
@@ -70,19 +74,8 @@ p {
 .hero img {
   display: block;
   border-radius: 18px;
-  max-width: 348px;
+  max-width: 80%;
   height: auto;
-  margin-left: 10px;
-  object-fit: cover;
-}
-
-.container {
-  width: 350px;
-}
-
-.container h2 {
-  margin-top: 22px;
-  width: 73%;
 }
 
 .email-entry {
@@ -119,4 +112,50 @@ p {
 
 .email-entry__input input::placeholder {
   color: #bdbdbd;
+}
+
+.card {
+  width: 341px;
+  height: 422px;
+  margin-top: 43px;
+  margin: 43px auto 0;
+}
+
+.card span {
+  font-size: 27px;
+  padding: 21.5px;
+  border-radius: 16px;
+  color: white;
+  margin-top: 49px;
+  margin-bottom: 35px;
+}
+
+.ui-ux-card span {
+  background-color: #2D9CDB;
+}
+
+.frontend-card {
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+}
+
+.frontend-card span {
+  background-color: #27AE60;
+}
+
+.backend-card span {
+  background-color: #EB5757;
+}
+
+.get-started-btn {
+  background-color: #2D9CDB;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 9px 12px;
+  margin-top:30px;
+}
+
+.card p {
+  margin-top: 24px;
 }
